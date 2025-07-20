@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "175788276304",
+    "project_id": "predictsafe-149e5",
+    "storage_bucket": "predictsafe-149e5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175788276304:android:0e97f2047a7f05ec77af55",
+        "android_client_info": {
+          "package_name": "com.example.predictsafe"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5Jaoxar4QGSN6HL7xCPV6YjI7O3DftJw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

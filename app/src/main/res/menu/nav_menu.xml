@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+        android:icon="@android:drawable/ic_lock_power_off"/>
+    <item
+        android:id="@+id/nav_review"
+        android:title="Review"
+        android:icon="@android:drawable/ic_menu_info_details"/>
+    <item
+        android:id="@+id/nav_report"
+        android:title="Report"
+        android:icon="@android:drawable/ic_menu_edit"/>
+    <item
+        android:id="@+id/nav_emergency_contacts"
+        android:title="Emergency Contacts"
+        android:icon="@android:drawable/ic_menu_call">
+        <menu>
+            <item
+                android:id="@+id/nav_add_contact"
+                android:title="Add Contact"
+                android:icon="@android:drawable/ic_menu_add"/>
+            <item
+                android:id="@+id/nav_remove_contact"
+                android:title="Remove Contact"
+                android:icon="@android:drawable/ic_menu_delete"/>
+            <item
+                android:id="@+id/nav_update_contact"
+                android:title="Update Contact"
+                android:icon="@android:drawable/ic_menu_edit"/>
+            <item
+                android:id="@+id/nav_list_contacts"
+                android:title="Contact List"
+                android:icon="@android:drawable/ic_menu_agenda"/>
+        </menu>
+    </item>
+</menu> 
